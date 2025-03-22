@@ -2,6 +2,7 @@ import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 import PropertyCard from "../property/PropertyCard";
+import Link from "next/link";
 
 export const HoverEffect = ({
     properties,
@@ -39,7 +40,8 @@ export const HoverEffect = ({
                         )}
                     </AnimatePresence>
 
-                    <Card>
+                    {/* Since property details are not required, this component is now a simple clickable element with a pointer cursor for better UX. */}
+                    <Card className="cursor-pointer">
                         <PropertyCard property={property} />
                     </Card>
                 </div>

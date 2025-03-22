@@ -15,11 +15,8 @@ const inter = Inter({
 
 // Metadata
 export const metadata: Metadata = {
-  title: "1Acre Explorer",
+  title: "1Acre Explorer | Home Page",
   description: "Seamless Property Discovery – Explore, Scroll, and Map Your Next Investment!",
-  icons: {
-    // icon: "/assets/images/site-logo.svg",
-  },
 };
 
 
