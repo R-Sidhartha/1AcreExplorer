@@ -16,7 +16,7 @@ export default function Navbar() {
             <div className="container mx-auto flex items-center justify-between p-4">
                 {/* Logo */}
                 <motion.h1
-                    className="text-2xl font-bold text-lime-800"
+                    className="text-2xl font-bold text-lime-800 dark:text-lime-700"
                 >
                     1Acre Explorer
                 </motion.h1>
@@ -52,8 +52,8 @@ export default function Navbar() {
 // Reusable Navigation Links Component
 function NavLinks({ mobile }: { mobile?: boolean }) {
     const linkClasses = mobile
-        ? "block text-lg py-2 hover:text-lime-700 text-lime-900 transition-all"
-        : "hover:text-lime-700 text-lime-900 transition-all";
+        ? "block text-lg py-2 hover:text-lime-700 text-lime-900 dark:text-lime-600 transition-all"
+        : "hover:text-lime-700 text-lime-900 dark:text-lime-600 transition-all";
 
     return (
         <>
