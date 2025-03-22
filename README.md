@@ -46,6 +46,10 @@ State Management: Context
 
 Maps & Location: Google Maps API
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> b16571b3718b62a092a5a0962f346c1028f26182
 📧 Contact & Support
 For queries or suggestions, feel free to reach out:
 
