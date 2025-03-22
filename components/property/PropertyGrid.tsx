@@ -5,6 +5,7 @@ import { useEffect, useRef } from "react";
 import { fetchProperties } from "@/lib/api";
 import { HoverEffect } from "@/components/ui/card-hover-effect";
 
+//skeleton for loading state
 function SkeletonCard() {
     return (
         <div className="bg-gray-200 dark:bg-gray-700 rounded-xl p-4 animate-pulse">
