@@ -46,30 +46,6 @@ State Management: Context
 
 Maps & Location: Google Maps API
 
-📝 Additional Notes
-Folder Structure:
-
-nextjs-1acre-assignment
-┣ 📂 public/ # Static assets (icons, images)
-┃ 📂 app/ # Next.js App Router (root folder)
-┃ 📂 components/ # Reusable components
-┃ ┣ 📂 property/ # Components related to property grid
-┃ ┃ ┣ 📜 PropertyCard.tsx # Property Card (ShadCN UI + Framer Motion)
-┃ ┃ ┣ 📜 PropertyGrid.tsx # Grid with Infinite Scroll (React Query)
-┃ ┃ ┣ 📜 PropertyCarousel.tsx # Carousel inside PropertyCard (ShadCN UI)
-┃ ┣ 📂 map/ # Map-related components
-┃ ┃ ┣ 📜 Map.tsx # Google Maps integration (Markers)
-┃ ┃ ┣ 📜 MapClient.tsx # property locations
-┃ ┣ 📜 Navbar.tsx # Top navigation bar
-┃ ┣ 📜 Footer.tsx # Footer
-┃ 📂 hooks/ # Custom hooks
-┃ ┣ 📜 useInfiniteScroll.ts # Infinite Scroll Hook
-┃ 📂 lib/ # API & Utilities
-┃ ┣ 📜 api.ts # Fetch property & map data
-┣ 📜 next.config.js # Next.js config
-┣ 📜 tsconfig.json # TypeScript config
-┣ 📜 README.md # Project Documentation
-┣ 📜 package.json # Dependencies
 
 📧 Contact & Support
 For queries or suggestions, feel free to reach out:
