@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🏡 1Acre Explorer
+🚀 1Acre Explorer is a modern real estate platform built with Next.js, Tailwind CSS, TypeScript, and MongoDB. It provides seamless property exploration, advanced search features, interactive maps, and real-time data updates.
 
-## Getting Started
+📌 Features
+✅ Interactive Map Integration – Powered by Google Maps API
+✅ Lazy Loading with Skeletons – Optimized for better performance
+✅ Property Listings & Grid View – Display property details in an elegant UI
+✅ Advanced Filtering – Search properties based on location, price, and features
+✅ Fully Responsive Design – Tailored for all devices
+✅ Next.js API Routes – Backend endpoints for property data
 
-First, run the development server:
+🚀 Project Setup
+1️⃣ Clone the Repository
+git clone https://github.com/R-Sidhartha/1AcreExplorer.git
+cd 1acre-explorer
 
-```bash
+2️⃣ Install Dependencies
+npm install
+
+# or
+
+yarn install
+
+3️⃣ Set Up Environment Variables
+Create a .env.local file in the root directory and add the required API keys:
+NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=your_api_key
+
+4️⃣ Start the Development Server
 npm run dev
+
 # or
+
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🌍 Deployment
+🔗 Live Demo: [1Acre Explorer](https://1-acre-explorer.vercel.app/)
+Deploy on Vercel (Recommended)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📖 Tech Stack
 
-## Learn More
+Frontend: Next.js, TypeScript, Tailwind CSS, ShadCN
 
-To learn more about Next.js, take a look at the following resources:
+State Management: Context
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Maps & Location: Google Maps API
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📝 Additional Notes
+Folder Structure:
 
-## Deploy on Vercel
+nextjs-1acre-assignment
+┣ 📂 public/ # Static assets (icons, images)
+┃ 📂 app/ # Next.js App Router (root folder)
+┃ 📂 components/ # Reusable components
+┃ ┣ 📂 property/ # Components related to property grid
+┃ ┃ ┣ 📜 PropertyCard.tsx # Property Card (ShadCN UI + Framer Motion)
+┃ ┃ ┣ 📜 PropertyGrid.tsx # Grid with Infinite Scroll (React Query)
+┃ ┃ ┣ 📜 PropertyCarousel.tsx # Carousel inside PropertyCard (ShadCN UI)
+┃ ┣ 📂 map/ # Map-related components
+┃ ┃ ┣ 📜 Map.tsx # Google Maps integration (Markers)
+┃ ┃ ┣ 📜 MapClient.tsx # property locations
+┃ ┣ 📜 Navbar.tsx # Top navigation bar
+┃ ┣ 📜 Footer.tsx # Footer
+┃ 📂 hooks/ # Custom hooks
+┃ ┣ 📜 useInfiniteScroll.ts # Infinite Scroll Hook
+┃ 📂 lib/ # API & Utilities
+┃ ┣ 📜 api.ts # Fetch property & map data
+┣ 📜 next.config.js # Next.js config
+┣ 📜 tsconfig.json # TypeScript config
+┣ 📜 README.md # Project Documentation
+┣ 📜 package.json # Dependencies
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📧 Contact & Support
+For queries or suggestions, feel free to reach out:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📩 Email: sidiitn516@gmail.com
+portfolio: https://sidharth-portfolio-alpha.vercel.app
